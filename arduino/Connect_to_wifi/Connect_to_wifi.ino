@@ -19,7 +19,7 @@ unsigned long lastSendData = 0;  // ⏳ משתנה שישמור את זמן הש
 
 // פרטי חיבור לרשת
 char ssid[] = "your ssid...";
-char pass[] = "your passworld";
+char pass[] = "your password";
 char server_ip[] = "10.100.102.3";
 
 WiFiClient client;
