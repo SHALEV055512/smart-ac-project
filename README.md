@@ -25,7 +25,7 @@ This project enables full control over an air conditioner using temperature and 
 ```
 smart-ac-project/
 ├── arduino/AC_Smart_Controller.ino  # Arduino code for sensors & logic
-│   └── Connect_to_wifi.ino
+│   └── AC_Smart_Controller.ino
 ├── backend/                         # Python Flask server & logic
 │   ├── broadlink_controller.py
 │   └── google_sheets_logger.py
