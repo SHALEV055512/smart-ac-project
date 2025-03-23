@@ -24,13 +24,13 @@ This project enables full control over an air conditioner using temperature and 
 
 ```
 smart-ac-project/
-├── arduino/                    # Arduino code for sensors & logic
+├── arduino/AC_Smart_Controller.ino  # Arduino code for sensors & logic
 │   └── Connect_to_wifi.ino
-├── backend/                    # Python Flask server & logic
+├── backend/                         # Python Flask server & logic
 │   ├── broadlink_controller.py
 │   └── google_sheets_logger.py
-├── credentials/               # Google API credentials (NOT pushed to GitHub)
-│   └── credentials.json       # <-- This file is ignored via .gitignore
+├── credentials/                     # Google API credentials (NOT pushed to GitHub)
+│   └── credentials.json             # <-- This file is ignored via .gitignore
 └── .gitignore
 ```
 
